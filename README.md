@@ -1,4 +1,4 @@
 # codewars-solution
 
 solution for problems from codewars.com
-in python, sql, 
+in python, sql, java
