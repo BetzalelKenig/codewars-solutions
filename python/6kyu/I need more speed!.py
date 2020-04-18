@@ -15,3 +15,10 @@ def reverse(seq):
     for i in range(len(seq)):
         x.append(seq.pop())
     seq.extend(x)
+
+
+
+# def reverse(seq): 
+#     l= len(seq)
+#     for i in range(l//2):
+#         seq[i], seq[l-i-1]= seq[l-i-1], seq[i]
