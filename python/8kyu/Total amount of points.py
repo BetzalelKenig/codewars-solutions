@@ -15,11 +15,17 @@
 #     0 <= y <= 4
 
 
+# def points(games):
+#     s = 0
+#     for i in games:
+#         if i[0] > i[2]:
+#             s += 3
+#         elif i[0] == i[2]:
+#             s += 1
+#     return s
+
 def points(games):
-    s = 0
-    for i in games:
-        if i[0] > i[2]:
-            s += 3
-        elif i[0] == i[2]:
-            s += 1
-    return s
+    return sum([3 if i[0] > i[2] else 1 if i[0] == i[2] else 0 for i in games])
+
+
+
