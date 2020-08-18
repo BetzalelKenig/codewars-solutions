@@ -7,6 +7,9 @@
 
 def flatten(*x):
     res = []
-    f = lambda l: [f(i) if isinstance(i, list) else res.append(i) for i in l]
+
+    def f(l): return [f(i) if isinstance(
+        i, list) else res.append(i) for i in l]
     f(x)
     return res
+
