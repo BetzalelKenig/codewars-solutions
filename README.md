@@ -1,4 +1,4 @@
-# codewars-solution
+# codewars-solutions
 
-solution for problems from [codewars](https://www.codewars.com/)
+Solutions for problems from [codewars](https://www.codewars.com/)
 in python, sql, java
