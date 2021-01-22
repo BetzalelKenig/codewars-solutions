@@ -9,5 +9,5 @@
 # "4of Fo1r pe6ople g3ood th5e the2"  -->  "Fo1r the2 g3ood 4of th5e pe6ople"
 # ""  -->  ""
 
-def order(str):
-    return ' '.join([w[0] for w in sorted(zip(str.split(' '), [n for n in str if n.isdigit()]), key=lambda x: x[1])]) 
+def order(st):
+    return ' '.join([w[0] for w in sorted(zip(st.split(' '), [n for n in st if n.isdigit()]), key=lambda x: x[1])]) 
